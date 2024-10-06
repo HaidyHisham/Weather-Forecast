@@ -5,7 +5,7 @@ const btnSearch = document.getElementById("btnsearch");
 
 // Function to get weather for a default city if geolocation is not available
 function getDefaultWeather() {
-    getWeather("Qalyub");
+    getWeather("Cairo");
 }
 
 // Check if geolocation is supported
