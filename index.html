@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Weather</title>
+
+    <!-- Link FontAwesome -->
+    <link rel="stylesheet" href="css/all.min.css"/>
+    <!-- Link Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <!-- Style CSS Link -->
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+  <!-- loading screen -->
+
+   <div class="loading d-flex align-items-center justify-content-center d-none">
+    <span class="loader"></span>
+   </div>
+
+   <section class="min-vh-100 overflow-hidden">
+    <div class="container py-5">
+        <form class=" inputSearch m-auto w-50 py-4 ">
+            <input type="text" class="form-control " placeholder="Find your location..." id="search">
+            <button type="button" class="btn btn-submit bg-info" id="btnsearch">Find</button>
+        </form>
+    </div>
+    <div class="row text-center mt-5 g-4 px-md-5" id="rowData"></div>
+
+   </section>
+             
+  
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
